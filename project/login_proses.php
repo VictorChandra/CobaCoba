@@ -19,7 +19,7 @@
 		$baris = mysqli_fetch_assoc($hasil);
 		if($pass == $baris['password']){
 			//echo "password cocok";
-			$_SESSION['login'] = 1;
+			$_SESSION['login'] = $_POST['USERNAME'];;
 			header("Location:adminmenu.php");
 		}else{
 			//echo "password tidak cocok";

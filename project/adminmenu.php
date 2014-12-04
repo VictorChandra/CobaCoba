@@ -1,6 +1,8 @@
 <?php
 session_start();
-	if($_SESSION['login'] ==1){
+	if($_SESSION['login'] == 'novianto' || $_SESSION['login'] == 'jesikawati' || $_SESSION['login'] == 'victor'){
+	$a = $_SESSION['login'];
+	
 echo "<!DOCTYPE html>
 	<html>
 	<head>
@@ -13,7 +15,7 @@ echo "<!DOCTYPE html>
 			<h2>Admin Menu</h2>
 		</div><!--#header-->
 		<div id='konten_admin_menu'>
-			<h2><marquee behavior='ALTERNATE'>Welcome to Admin Menu</marquee></h2>
+			<h2><marquee behavior='ALTERNATE'>Welcome $a</marquee></h2>
 			<table>
 				<tr>
 					<td>
