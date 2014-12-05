@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--Jesikawati_32130021-->
+<html>
+	<head>
+		<title>Jw's Fan Pages</title>
+		<link href="style.css" media="screen" type="text/css" rel="stylesheet"/>
+	</head>
+	
+	<body bgcolor="#fffde8">
+	<table width=100% background="path.jpg">
+		<tr height=60>
+			<td><a href="News.html"><font color="blue"><b>News</b></a></td>
+		</tr>
+		<tr height=60>
+			<td><a href="Gallery.html"><font color="blue"><b>Gallery</b></a></td>
+		</tr>
+		<tr height=60>
+			<td><a href="Profile.html"><font color="blue"><b>Profile</b></a></td>
+			<td align="right"><a href="Join.html"><font color="green"><b>Be a Fans</b><a></td>
+		</tr>
+	</table>
+	
+		<form method="POST" name="Fans Form">
+			<label><font size=8><b>Be the one of Jw's Fans Club...</br></b></font></label>
+		<div style="position:absolute;top:270px;">
+		<table width="100%">
+		<tr>
+			<td width="18%" height=30>Nama Lengkap</td>
+			<td width="15%"><input 	type="text"	
+									name="namalkp"
+									placeholder="Nama Lengkap"
+									value=""required/></td>
+			<td width="15%">Nama Panggilan</td>
+			<td><input	type="text"
+						name="namapanggil"
+						placeholder="Nama Panggilan"
+						value=""required/></td>		
+		</tr>
+	
+		<tr>
+			<td height=30>Jenis Kelamin</td>
+			<td colspan=3>	<input 	type="radio"
+									name="sex"
+									value="laki-laki"/>Laki-laki
+
+							<input 	type="radio"
+									name="sex"
+									value="perempuan"/>Perempuan
+		</tr>
+	
+		<tr>
+			<td height=30>Tanggal Lahir</td>
+			<td colspan=3>
+				<select name="tanggal"
+						style="width:40px">
+					<script type="text/javascript">
+						for (var i=1;i<=31;i++)
+						{document.write("<option value="+i+">"+i+"</option>");}
+					</script>
+				</select>
+		
+				<select name="bulan" 
+						style="width:100px">
+					<option value="jan">Januari</option>
+					<option value="feb">Februari</option>
+					<option value="mar">Maret</option>
+					<option value="apr">April</option>
+					<option value="mei">Mei</option>
+					<option value="jun">Juni</option>
+					<option value="jul">Juli</option>
+					<option value="aug">Agustus</option>
+					<option value="sept">September</option>
+					<option value="okt">Oktober</option>
+					<option value="nov">November</option>
+					<option value="des">Desember</option>
+				</select>
+			
+				<select name="tahun"
+						style="width:60px">
+					<script type="text/javascript">
+						for (var i=1950;i<=2014;i++)
+						{document.write("<option value="+i+">"+i+"</option>");}
+					</script>
+				</select>
+			</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Alamat</td>
+			<td colspan=4><textarea name="alamat" rows="5" cols="40" placeholder="Alamat Anda..."required></textarea></td>
+		</tr>
+	
+		<tr>
+			<td height=30>Kota</td>
+			<td><input	type="text"
+						name="kota"
+						placeholder="Kota"
+						value=""/></td>		
+		</tr>
+	
+		<tr>
+			<td height=30>Username</td>
+			<td><input	type="text"
+						name="username"
+						placeholder="Username"
+						value=""/></td>		
+		</tr>
+		
+		<tr>
+			<td height=30>Password</td>
+			<td><input	type="password"
+						name="pass"
+						placeholder="Password"
+						value=""/></td>		
+		</tr>
+		<tr>
+			<td height=30>Confirm Password</td>
+			<td><input	type="password"
+						name="confpass"
+						placeholder="Confirm Password"
+						value=""/></td>		
+		</tr>
+	
+		<tr>
+			<td height=30>Foto Terbaru</td>
+			<td colspan="3"><input 	type="file"
+									name="img"
+									value=""/></td>
+		</tr>
+	
+		<tr>
+			<td colspan="4">Apa yang anda sukai dari seorang Jw?</td>
+		</tr>
+	
+		<tr>
+			<td colspan="4"><textarea name="alasan" rows="5" cols="75"placeholder="Saya suka dengan karya nya tentang..."required></textarea></td>
+		</tr>
+	
+		<tr>
+			<td colspan="4"><a href="thanks.html">
+							<input 	type="button"
+									name="daftar"
+									value="Daftar"/></a>
+						
+							<a href="News.html">
+							<input 	type="button"
+									name="kembali"
+									value="Kembali"/></a>
+			</td>
+		</tr>
+
+		</table>
+		</div>
+		</form>
+		
+	</body>
+</html>

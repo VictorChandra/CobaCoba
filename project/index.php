@@ -1,7 +1,4 @@
-<?php //filename :index.php
-	
-	echo"
-	<!DOCTYPE html>
+<!DOCTYPE html>
 	<html>
 		<head>
 			<title>Index.php</title>
@@ -9,29 +6,15 @@
 		</head>
 		<body>
 			<div id='bungkus'>
-				<div id='header'>
-					<div id='logo'>
-						<h1><center>LOGO</center></h1>
-					</div>
-					<div id='nama'>
-						<h1><center>NAMA</center></h1>
+				<div id='slide'>
+					<div id='gambar'>
 					</div>
 				</div>
-				<div class='content'>
-					<div id='content1'>
-						<ul>
-							<li>HOME</li>
-							<li>GALLERY</li>
-							<li>ABOUT US</li>
-							<li>CONTACT US</li>
-						</ul>
-					</div>
-					<div id='content2'>
-					</div>
-				</div>
-				<div id='footer'>
+				<div id='next'>
+					<h1><center>Home</center></h1>
 				</div>
 			</div>
+			<div id='footer'>
+			</div>
 		</body>
-	</html>";
-?>
+	</html>
