@@ -7,8 +7,8 @@ body{
 }
 
 #bungkus {
-	margin :0;
-	padding:0;
+	background: gray;
+	padding-top: 20px;
 }
 
 #header{
@@ -78,20 +78,34 @@ body{
 	margin:0 auto;
 	background:black;
 	height:200px;
-	width:1000px;
+	width:100%;
 }
 
 #slide{
-	margin: 0 auto;
+	width:400px;
+	height:450px;
+	margin:auto;
+}
+
+#picslide{
+	margin:0 auto;
 	width:400px;
 	height:400px;
 	background-color:blue;
-	border:2px solid;
 	border-radius: 20%;
 }
 
 #next{
-	width:200px;
-	margin-left: 180px;
-	background-color: yellow;
+	width: 85px;
+	margin-top: 8px;
+	margin-left: 300px;
+}
+
+#next a{
+	text-decoration:none;
+	color: #000000;
+}
+
+#next h1 {
+	margin:0;
 }

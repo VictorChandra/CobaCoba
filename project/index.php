@@ -2,19 +2,24 @@
 	<html>
 		<head>
 			<title>Index.php</title>
-			<link rel='stylesheet' href='stylesheet/style.css' />
+			<link rel="stylesheet" href="stylesheet/style.css" />
 		</head>
 		<body>
-			<div id='bungkus'>
-				<div id='slide'>
-					<div id='gambar'>
+			<div id="bungkus">
+				<div id="slide">
+					<div id="picslide">
+						
+					</div>
+					<div id="next">
+					<a href="">
+						<h1>Home</h1>
+					</a>
 					</div>
 				</div>
-				<div id='next'>
-					<h1><center>Home</center></h1>
+				<div id="footer">
+				
 				</div>
 			</div>
-			<div id='footer'>
-			</div>
+			
 		</body>
 	</html>
